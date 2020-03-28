@@ -139,6 +139,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-bottom: 120px;
 }
 
 .feature {
@@ -164,5 +165,37 @@ body {
   font-weight: 300;
   font-size: 20px;
   line-height: 27px;
+}
+
+.secondary-header {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+}
+
+.flat-text {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  padding-left: 50px;
+  margin-top: -50px;
+}
+
+.flats {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 100px;
+}
+
+.flat {
+  margin-bottom: 30px;
 }
 /*# sourceMappingURL=style.css.map */

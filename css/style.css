@@ -245,7 +245,7 @@ body {
       flex-wrap: wrap;
 }
 
-.call-me-form input {
+.your-name, .your-phone {
   padding: 12px 50px;
   text-align: center;
   margin-bottom: 35px;
@@ -268,5 +268,30 @@ body {
   line-height: 27px;
   text-align: center;
   padding: 12px 60px;
+}
+
+.video-frame {
+  text-align: center;
+  margin-bottom: 180px;
+}
+
+.map {
+  margin-top: 100px;
+  margin-bottom: 180px;
+}
+
+.qna {
+  margin-bottom: 180px;
+}
+
+.qna span {
+  margin-top: 5px;
+  -webkit-box-ordinal-group: -2;
+      -ms-flex-order: -3;
+          order: -3;
+}
+
+.qna input {
+  margin-bottom: 0;
 }
 /*# sourceMappingURL=style.css.map */

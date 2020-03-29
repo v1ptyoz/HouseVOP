@@ -20,16 +20,19 @@ body {
 }
 
 .container {
-  width: 1110px;
+  max-width: 1110px;
   margin: auto;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
 .first-screen {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(12%, #242B33), color-stop(51%, rgba(45, 52, 60, 0.38)), color-stop(92%, #242B33)), url("../img/first-screen-bg.jpg");
   background: linear-gradient(180deg, #242B33 12%, rgba(45, 52, 60, 0.38) 51%, #242B33 92%), url("../img/first-screen-bg.jpg");
-  min-height: 840px;
   padding-top: 30px;
-  margin-bottom: 120px;
+  margin-bottom: 10%;
+  background-repeat: no-repeat;
+  background-position: top center;
 }
 
 .header {
@@ -42,7 +45,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 225px;
+  margin-bottom: 20%;
 }
 
 .logo {
@@ -82,16 +85,16 @@ body {
   font-weight: bold;
   font-size: 48px;
   line-height: 64px;
-  margin-bottom: 100px;
+  margin-bottom: 10%;
 }
 
 .mouse {
-  margin-bottom: 200px;
+  margin-bottom: 20%;
 }
 
 .contacts {
-  margin-bottom: 75px;
-  margin-right: 35px;
+  margin-bottom: 10%;
+  margin-right: 4%;
 }
 
 .address {
@@ -139,7 +142,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 120px;
+  margin-bottom: 12%;
 }
 
 .feature {
@@ -153,11 +156,11 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-right: 70px;
+  margin-right: 8%;
 }
 
 .feature-icon {
-  margin-bottom: 53px;
+  margin-bottom: 6%;
 }
 
 .feature-text {
@@ -192,17 +195,18 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-top: 100px;
+  margin-top: 9%;
 }
 
 .flat {
-  margin-bottom: 30px;
+  margin-bottom: 3%;
 }
 
 .third-screen {
   background-image: url("../img/third-screen-bg.jpg");
-  padding-top: 180px;
-  padding-bottom: 180px;
+  background-repeat: no-repeat;
+  padding-top: 18%;
+  padding-bottom: 10%;
 }
 
 .call-me {
@@ -212,7 +216,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-bottom: 50px;
+  margin-bottom: 5%;
 }
 
 .call-me-text {
@@ -234,7 +238,7 @@ body {
 }
 
 .call-me-form {
-  margin-top: 60px;
+  margin-top: 14%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -248,7 +252,7 @@ body {
 .your-name, .your-phone {
   padding: 12px 50px;
   text-align: center;
-  margin-bottom: 35px;
+  margin-bottom: 4%;
   opacity: 0.2;
 }
 
@@ -272,23 +276,27 @@ body {
 
 .video-frame {
   text-align: center;
-  margin-bottom: 180px;
+  margin-bottom: 18%;
 }
 
 .map {
-  margin-top: 100px;
-  margin-bottom: 180px;
+  margin-top: 8%;
+  margin-bottom: 8%;
 }
 
 .qna {
-  margin-bottom: 180px;
+  margin-bottom: 8%;
 }
 
 .qna span {
-  margin-top: 5px;
+  margin-top: 1%;
   -webkit-box-ordinal-group: -2;
       -ms-flex-order: -3;
           order: -3;
+}
+
+.qna .call-me-form {
+  margin-top: 8%;
 }
 
 .qna input {
@@ -297,8 +305,8 @@ body {
 
 .footer {
   background-color: #2D343C;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .flex {
@@ -355,7 +363,7 @@ body {
 .footer-contacts p {
   padding-top: 0;
   margin-top: 0;
-  margin-bottom: 15px;
+  margin-bottom: 10%;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.05em;
@@ -374,6 +382,6 @@ body {
 }
 
 .social a {
-  margin-right: 20px;
+  margin-right: 10%;
 }
 /*# sourceMappingURL=style.css.map */

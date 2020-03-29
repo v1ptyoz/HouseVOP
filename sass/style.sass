@@ -1,4 +1,5 @@
 @import 'fonts'
+@import 'media'
 
 h1, h2, h3
     font-family: 'Playfair Display', serif
@@ -10,20 +11,23 @@ body
     font-family: 'Raleway'
 
 .container
-    width: 1110px
+    max-width: 1110px
     margin: auto
+    padding-left: 2%
+    padding-right: 2%
 
 .first-screen
     background: linear-gradient(180deg, #242B33 12%, rgba(45, 52, 60, 0.38) 51%, #242B33 92%), url("../img/first-screen-bg.jpg")
-    min-height: 840px
     padding-top: 30px
-    margin-bottom: 120px
+    margin-bottom: 10%
+    background-repeat: no-repeat
+    background-position: top center
 
 .header
     display: flex
     justify-content: space-between
     align-items: center
-    margin-bottom: 225px
+    margin-bottom: 20%
 
 .logo
     font-family: "PostNoBills"
@@ -53,14 +57,14 @@ body
     font-weight: bold
     font-size: 48px
     line-height: 64px
-    margin-bottom: 100px
+    margin-bottom: 10%
 
 .mouse
-    margin-bottom: 200px
+    margin-bottom: 20%
 
 .contacts
-    margin-bottom: 75px
-    margin-right: 35px
+    margin-bottom: 10%
+    margin-right: 4%
 
 .address
     padding-right: 125px
@@ -96,16 +100,16 @@ body
     display: flex
     justify-content: center
     align-items: center
-    margin-bottom: 120px
+    margin-bottom: 12%
 
 .feature
     display: flex
     flex-direction: column
     align-items: center
-    margin-right: 70px
+    margin-right: 8%
 
 .feature-icon
-    margin-bottom: 53px
+    margin-bottom: 6%
 
 .feature-text
     text-align: center
@@ -132,21 +136,22 @@ body
     display: flex
     flex-wrap: wrap
     justify-content: space-between
-    margin-top: 100px
+    margin-top: 9%
 
 .flat
-    margin-bottom: 30px
+    margin-bottom: 3%
 
 .third-screen
     background-image: url("../img/third-screen-bg.jpg")
-    padding-top: 180px
-    padding-bottom: 180px
+    background-repeat: no-repeat
+    padding-top: 18%
+    padding-bottom: 10%
 
 
 .call-me
     display: flex
     justify-content: space-between
-    margin-bottom: 50px
+    margin-bottom: 5%
 
 .call-me-text
     font-size: 16px
@@ -160,7 +165,7 @@ body
     flex: 1
 
 .call-me-form
-    margin-top: 60px
+    margin-top: 14%
     display: flex
     justify-content: space-between
     flex-wrap: wrap
@@ -168,7 +173,7 @@ body
 .your-name, .your-phone
     padding: 12px 50px
     text-align: center
-    margin-bottom: 35px
+    margin-bottom: 4%
     opacity: 0.2
 
 .disclaimer
@@ -189,26 +194,29 @@ body
 
 .video-frame
     text-align: center
-    margin-bottom: 180px
+    margin-bottom: 18%
 
 .map
-    margin-top: 100px
-    margin-bottom: 180px
+    margin-top: 8%
+    margin-bottom: 8%
 
 .qna
-    margin-bottom: 180px
+    margin-bottom: 8%
 
 .qna span
-    margin-top: 5px
+    margin-top: 1%
     order: -3
+
+.qna .call-me-form
+    margin-top: 8%
 
 .qna input
     margin-bottom: 0
 
 .footer
     background-color: #2D343C
-    padding-top: 60px
-    padding-bottom: 60px
+    padding-top: 5%
+    padding-bottom: 5%
 
 .flex
     display: flex
@@ -241,7 +249,7 @@ body
 .footer-contacts p
     padding-top: 0
     margin-top: 0
-    margin-bottom: 15px
+    margin-bottom: 10%
     font-size: 14px
     line-height: 16px
     letter-spacing: 0.05em
@@ -255,4 +263,4 @@ body
     display: flex
 
 .social a
-    margin-right: 20px
+    margin-right: 10%

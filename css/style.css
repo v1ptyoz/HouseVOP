@@ -205,8 +205,8 @@ body {
 .third-screen {
   background-image: url("../img/third-screen-bg.jpg");
   background-repeat: no-repeat;
-  padding-top: 18%;
-  padding-bottom: 10%;
+  padding-top: 7%;
+  padding-bottom: 5%;
 }
 
 .call-me {
@@ -305,8 +305,8 @@ body {
 
 .footer {
   background-color: #2D343C;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding-top: 4%;
+  padding-bottom: 4%;
 }
 
 .flex {

@@ -275,13 +275,18 @@ body {
 }
 
 .your-name, .your-phone {
-  padding: 12px 50px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+  padding: 12px 42px;
+  width: 250px;
   text-align: center;
   margin-bottom: 4%;
   opacity: 0.2;
 }
 
 .disclaimer {
+  padding-top: 5px;
   font-size: 13px;
   line-height: 16px;
   text-align: center;
@@ -296,7 +301,8 @@ body {
   font-size: 16px;
   line-height: 27px;
   text-align: center;
-  padding: 12px 60px;
+  padding: 8px 30px;
+  width: 250px;
 }
 
 .video-frame {
@@ -318,7 +324,7 @@ body {
 }
 
 .qna span {
-  margin-top: 1%;
+  margin-top: 0;
   -webkit-box-ordinal-group: -2;
       -ms-flex-order: -3;
           order: -3;
@@ -330,6 +336,7 @@ body {
 
 .qna input {
   margin-bottom: 0;
+  width: 250px;
 }
 
 .footer {

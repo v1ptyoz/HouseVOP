@@ -440,26 +440,40 @@ body {
 
 @media (max-width: 1200px) {
   .container {
-    max-width: 950px;
+    max-width: 95%;
+  }
+  .flats {
+    text-align: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .flat {
+    width: 48%;
   }
   .flat img {
-    width: 450px;
+    max-width: 100%;
+    height: auto;
   }
   .left {
     margin-right: 15%;
   }
   .disclaimer {
     margin-bottom: 20px;
+    padding-right: 0px;
   }
   .qna input {
-    padding: 20px 30px;
+    max-width: 200px;
   }
   .qna .button {
-    padding: 20px;
+    max-width: 240px;
   }
 }
 
 @media (max-width: 960px) {
+  .container {
+    max-width: 90%;
+  }
   .menu-icon {
     display: inline-block;
   }
@@ -514,10 +528,13 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     text-align: center;
   }
-  .flat img {
-    width: 750px;
+  .flat {
+    width: 90%;
   }
   .qna {
     text-align: center;
@@ -526,14 +543,25 @@ body {
     display: none;
   }
   .qna input {
-    width: 40%;
+    max-width: 40%;
     margin-left: 5%;
     margin-right: 5%;
   }
-  .qna button {
-    width: 90%;
+  .qna .button {
     margin: auto;
     margin-top: 4%;
+  }
+}
+
+@media (max-width: 768px) {
+  .first-screen {
+    background-size: auto;
+  }
+  .container {
+    max-width: 90%;
+  }
+  .flat img {
+    max-width: 800px;
   }
 }
 /*# sourceMappingURL=style.css.map */
